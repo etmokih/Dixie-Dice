@@ -1,4 +1,3 @@
-
 const tensImages = [...Array(10).keys()].map(i => `images/tens_${i * 10}.png`);
 const onesImages = [...Array(10).keys()].map(i => `images/d10_${i}.png`);
 
@@ -9,7 +8,7 @@ const resultDisplay = document.getElementById("result");
 
 function speak(text) {
   const msg = new SpeechSynthesisUtterance(text);
-  window.speechSynthesis.cancel(); // Cancel any pending speech
+  window.speechSynthesis.cancel(); // Clear any previous utterances
   window.speechSynthesis.speak(msg);
 }
 
