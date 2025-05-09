@@ -1,0 +1,46 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f0f8ff;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.dice-container img {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.2s ease;
+}
+
+#result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #4db8ff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background-color: #3399ff;
+}
